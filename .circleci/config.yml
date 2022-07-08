@@ -16,7 +16,9 @@ jobs:
           name: Install Front-End Dependencies
           command: |
             npm run frontend:install
+            echo "frontent installed"
       - run:
           name: Install API Dependencies
           command: |
             npm run backend:install
+            echo "backend installed"
